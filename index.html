@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Favorite Avenger</title>
+  </head>
+  <body id="container">
+    <h4>MARVEL</h4>
+    <h1>Know more about a character</h1>
+    <input type="text" name="input_personaje" id="input_personaje" placeholder="Enter the character's name" />
+    <button id="button_search" onclick="obtenerValorInput()">Search</button>
+
+    <div id="pj-information">
+      <h3>Information about you character</h3>
+      <div id="show-info"></div>
+    </div>
+  </body>
+</html>
